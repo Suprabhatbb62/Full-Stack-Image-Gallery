@@ -1,0 +1,72 @@
+ * {
+            background-color: #080710;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 100px;
+        }
+
+        .container h2 {
+            color: white;
+        }
+
+        .container a {
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .formcontainer {
+            color: white;
+            margin-top: 50px;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .formcontainer input {
+            margin-top: 20px;
+            color: white;
+            background-color: #4CAF50;
+            /* Green background color */
+            border: none;
+            /* Remove border */
+            color: white;
+            /* White text */
+            padding: 15px 32px;
+            /* Padding */
+            text-align: center;
+            /* Center text */
+            text-decoration: none;
+            /* Remove underline */
+            display: inline-block;
+            /* Make it into a block */
+            font-size: 16px;
+            /* Font size */
+            cursor: pointer;
+            /* Add a hand cursor on hover */
+            border-radius: 5px;
+            /* Rounded corners */
+        }
+
+        .formcontainer input[type="file"]:hover {
+            background-color: #45a049;
+            /* Darker green */
+        }
+        .formcenter{
+            margin-top: 30px;
+            /* border: 2px solid; */
+        }
+        .lastcontainer{
+         margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
